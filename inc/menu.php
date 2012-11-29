@@ -16,39 +16,27 @@
 					</a>
 				</li>
 				<li>
-					<a href="./About-Us">
+					<a href="./About+Us/درباره+ما">
 						درباره ما
 						<span>چه می کنیم</span>
 					</a>
 				</li>
 				<li>
-					<a href="./Products-0-All">
+					<a href="./Products/0/محصولات">
 						محصولات
 						<span>نمایش کارهای ما</span>
 					</a>
-					<menu>
-						<ul>
-							<li><a href="./Products-1-ALPI">پنل های ALPI</a></li>
-							<li><a href="./Products-2-DANZER">پنل های DANZER</a></li>
-							<li><a href="./Products-3-High-Glass">پنل های High Glass</a></li>
-						</ul>
-					</menu>
+					<?php echo $template['products_cats']; ?>
 				</li>
 				<li>
-					<a href="./Projects-0-All">
+					<a href="./Projects/0/پروژه+ها">
 						پروژه ها
 						<span>آخرین پروژه ها</span>
 					</a>
-					<menu>
-						<ul>
-							<li><a href="./Projects-1-Cabinets">کابینت</a></li>
-							<li><a href="./Projects-2-Interior-Design">دکوراسیون داخلی</a></li>
-							<li><a href="./Projects-3-Structural-Doors">درب های ساختمانی</a></li>
-						</ul>
-					</menu>
+					<?php echo $template['projects_cats']; ?>
 				</li>
 				<li>
-					<a href="./Contact-Us">
+					<a href="./Contact+Us/تماس+با+ما">
 						تماس با ما
 						<span>راههای تماس</span>
 					</a>
